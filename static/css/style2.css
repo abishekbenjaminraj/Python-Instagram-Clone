@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 25%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+p {
+    margin-top: 10px;
+}
+
+
+.main {
+    border: 2px solid black;
+    padding: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+
+.sub {
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+    width: 413px;
+}
+
+.get {
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 50px;
+
+}
+
+.signin {
+    color: gray;
+    margin-top: 20px;
+}
+
+.btn1 {
+    padding: 10px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: blue;
+
+}
+
+.input1 {
+    width: 320px;
+    padding: 12px;
+}
+
+.input2 {
+    width: 320px;
+    padding: 12px;
+    margin-top: 7px;
+}
+
+.input3 {
+    width: 320px;
+    padding: 12px;
+    margin-top: 7px;
+}
+
+.input4 {
+    width: 320px;
+    padding: 12px;
+    margin-top: 7px
+}
+
+.one {
+    margin-top: 20px;
+    font-size: 16.5px;
+    color: gray;
+}
+
+.two {
+    margin-top: 10px;
+    font-size: 16.5px;
+    color: gray;
+}
+
+.three {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.a1 {
+    text-decoration-line: none;
+}
+
+.log {
+    color: blue;
+    text-decoration-line: none;
+}
+
+
+.btn2 {
+    padding: 10px;
+    width: 330px;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.btn2:hover{
+    background-color: blue;
+
+}
+
+nav {
+    text-align: center;
+    word-spacing: 12px;
+    font-size: 16px;
+
+}
+
+.line {
+    color: gray;
+    text-decoration-line: none;
+}
+
+.line:hover {
+    text-decoration: underline;
+}
+
+.noline {
+    color: gray;
+    text-decoration-line: none;
+}
+
+.linewithwords {
+    color: gray;
+    text-decoration-line: none;
+    word-spacing: 0;
+
+}
+
+.linewithwords:hover {
+    text-decoration: underline;
+}
+
+.nolinewithwords {
+    color: gray;
+    text-decoration-line: none;
+    word-spacing: 0;
+
+}
+
+
+.pic {
+    margin-left: 30px;
+}

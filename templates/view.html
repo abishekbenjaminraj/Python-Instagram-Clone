@@ -1,0 +1,10 @@
+<html>
+<body>
+<h1>Posts</h1>
+{% for item in response %}
+<img src='{{item["imagelink"]}}' width="400" height="400"><br><br>
+<b style="color:blue;">{{item['username']}}:</b>  {{item['caption']}}<br>
+<hr>
+{% endfor %} 
+</body>
+</html>

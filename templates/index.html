@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://kit.fontawesome.com/8b134085b2.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 1st column begins -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col_3">
+                <aside>
+
+                    <div class="instagram">
+                        <img src="../static/images/Instagram_logo.svg.png" alt="" height="45px" width="140px">
+                    </div>
+            
+                    <div class="home">
+                        <a href="#"><i class="fa-solid fa-house" style="color: #000000;"></i><span class="home1"><strong>Home</strong></span></a>
+                    </div>
+            
+                    <div class="homee">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i><span class="home2">Search</span></a>
+                    </div>
+            
+                    <div class="homee">
+                        <a href="{{url_for('view')}}"><i class="fa-regular fa-compass" style="color: #000000;"></i><span class="home2">Explore</span></a>
+                    </div>
+            
+                    <div class="homee">
+                        <a href=""><i class="fa-solid fa-clapperboard" style="color: #000000;"></i><span class="home2">Reels</span></a>
+                    </div>
+            
+                    <div class="homee">
+                        <a href=""><i class="fa-brands fa-facebook-messenger" style="color: #000000;"></i><span class="home2">Messages</span></a>
+                    </div>
+            
+                    <div class="homeeee">
+                        <a href="#"><i class="fa-regular fa-heart" style="color: #000000;"></i><span class="home2">Notifications</span></a>
+                    </div>
+            
+                    <div class="homee">
+                        <a href="{{url_for('upload')}}"><i class="fa-regular fa-square-plus" style="color: #000000;"></i><span class="home2">Create</span></a>
+                    </div>
+            
+                    <div class="homee">
+                        <a href="#"><i class="fa-solid fa-house" style="color: #000000;"></i><span class="home2">Profile</span></a>
+                    </div>
+            
+                    <div class="homeee">
+                        <a href="#"><i class="fa-solid fa-bars" style="color: #000000;"></i><span class="home2">More</span></a>
+                    </div>
+                </aside>
+            </div>
+
+
+            <!-- story column starts here -->
+
+            <div class="col_6">
+                <div class="story">
+                    <a href="#"><img src="../static/images/download.jpeg" alt="" class="virat"></a>
+                    <a href="#"><img src="../static/images/Wallpaper_com.klab_.bleach.jpg" alt="" class="virat"></a>
+                    <a href="#"><img src="../static/images/MV5BNGJmMWEzOGQtMWZkNS00MGNiLTk5NGEtYzg1YzAyZTgzZTZmXkEyXkFqcGdeQXVyMTE1MTYxNDAw._V1_.jpg" alt="" class="virat"></a>
+                    <a href="#"><img src="../static/images/gayle-red_d.webp" alt="" class="virat"></a>
+                    <a href="#"><img src="../static/images/cook final.webp" alt="" class="virat"></a>
+                    <a href="#"><img src="../static/images/Jemimah-Rodrigues-WBBL-Fifty-2021-1200x900.jpg" alt="" class="virat"></a>
+                    <a href="#"><img src="../static/images/surya.webp" alt="" class="virat"></a>
+                    <a href="#"><img src="../static/images/australias-david-warner-16560671474x3.jpg" alt="" class="virat"></a>
+                </div>
+                <div class="names">
+                    <p>Naruto_uzu</p>
+                    <p>Abraham_Be</p>
+                    <p>Ellyse_Perry</p>
+                    <p>The_Boss</p>
+                    <h5>Alas_Cook</h5>
+                    <h5>Jemimaa</h5>
+                    <h5>Mr.Suryaa</h5>
+                    <h5>David_W..</h5>
+                </div>
+
+
+                <!-- post column starts here -->
+
+
+                <div class="post1">
+                    <div class="header">
+                        <div class="one">
+                            <div class="two"><a href="#"><img src="../static/images/jef.JPG" alt="" class="virat1"></a></div>
+                            <div class="name">Jeffin Dericks</div> 
+                        </div>
+                        <div class="more">...</div>
+                        
+                    </div>
+                    <div class="padam">
+                        <a href="#"><img src="../static/images/jef.JPG" alt="" class="steyn" height="500px" width="100%"></a>
+                    </div>
+                    <div class="podhudiv">
+                        <div class="like">
+                            <a href="{{url_for('increment', type='add')}}" ><i class="fa-regular fa-heart" style="color: #000000;"></i></a>
+                            <a href="#"><i class="fa-regular fa-comment" style="color: #000000;"></i></a>
+                            <a href="#"><i class="fa-regular fa-paper-plane" style="color: #000000;"></i></a>
+                        </div>
+                        <div class="bookmark">
+                            <a href="#"><i class="fa-regular fa-bookmark" style="color: #000000;"></i></a>
+                        </div>
+                    </div>
+                    <div class="likes">
+                        <p>{{like}}</p>
+                    </div>
+                    <div class="caption">
+                        <p>Into ur Arms <a href="#">#serene</a> <a href="#">#love</a> <a href="#">#instagram</a>
+                        <a href="#">#look</a></p>
+                    </div>
+                    <div class="translate">
+                        <p>See Translation</p>
+                    </div>
+                    <div class="comments">
+                        <a href="#">View all 3 comments</a>
+                    </div>
+                    <div class="leavecomment">
+                        <input type="text" placeholder="Add a comment..." class="input">
+                    </div>
+                </div>
+
+
+                <!-- post2 starts here -->
+
+
+                <div class="post1">
+                    <div class="header">
+                        <div class="one">
+                            <div class="two"><a href="#"><img src="../static/images/vk.jpg" alt="" class="virat1"></a></div>
+                            <div class="name">Virat Kohli</div> 
+                        </div>
+                        <div class="more">...</div>
+                        
+                    </div>
+                    <div class="padam">
+                        <a href="#"><img src="../static/images/vk_post.webp" alt="" class="steyn" height="500px" width="100%"></a>
+                    </div>
+                    <div class="podhudiv">
+                        <div class="like">
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #000000;"></i></a>
+                            <a href="#"><i class="fa-regular fa-comment" style="color: #000;"></i></a>
+                            <a href="#"><i class="fa-regular fa-paper-plane" style="color: #000000;"></i></a>
+                        </div>
+                        <div class="bookmark">
+                            <a href="#"><i class="fa-regular fa-bookmark" style="color: #000000;"></i></a>
+                        </div>
+                    </div>
+                    <div class="likes">
+                        <p>{{like}}</p>
+                    </div>
+                    <div class="caption">
+                        <p>Story of 60 Overs! <a href="#">#reels</a> <a href="#">#cricket</a> <a href="#">#bowling</a>
+                        <a href="#">#love</a></p>
+                    </div>
+                    <div class="translate">
+                        <p>See Translation</p>
+                    </div>
+                    <div class="comments">
+                        <a href="#">View all 3 comments</a>
+                    </div>
+                    <div class="leavecomment">
+                        <input type="text" placeholder="Add a comment..." class="input">
+                    </div>
+                </div>
+
+                <!-- post3 starts here  -->
+
+                <div class="post1">
+                    <div class="header">
+                        <div class="one">
+                            <div class="two"><a href="#"><img src="../static/images/skysports-dale-steyn-south-africa_4965229.jpg" alt="" class="virat1"></a></div>
+                            <div class="name">Dale Steyn</div> 
+                        </div>
+                        <div class="more">...</div>
+                        
+                    </div>
+                    <div class="padam">
+                        <a href="#"><img src="../static/images/755352-dale-steyn-file.avif" alt="" class="steyn" height="500px" width="100%"></a>
+                    </div>
+                    <div class="podhudiv">
+                        <div class="like">
+                            <a href="#"><i class="fa-regular fa-heart" style="color: #000000;"></i></a>
+                            <a href="#"><i class="fa-regular fa-comment" style="color: #000000;"></i></a>
+                            <a href="#"><i class="fa-regular fa-paper-plane" style="color: #000000;"></i></a>
+                        </div>
+                        <div class="bookmark">
+                            <a href="#"><i class="fa-regular fa-bookmark"></i></a>
+                        </div>
+                    </div>
+                    <div class="likes">
+                        <p>{{like}}</p>
+                    </div>
+                    <div class="caption">
+                        <p>Right Arm Fast! <a href="#">#reels</a> <a href="#">#cricket</a> <a href="#">#bowling</a>
+                        <a href="#">#love</a></p>
+                    </div>
+                    <div class="translate">
+                        <p>See Translation</p>
+                    </div>
+                    <div class="comments">
+                        <a href="#">View all 3 comments</a>
+                    </div>
+                    <div class="leavecomment">
+                        <input type="text" placeholder="Add a comment..." class="input">
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- follow request part starts here  -->
+
+            <div class="col_3">
+                <div class="follow">
+                    <div class="mainpic">
+                        <div class="dp"><img src="../static/images/043A2073.JPG" alt="" class="jeffindp"></div>
+                        <div class="profilename"><p>__a.b.i.s.h.e.k__001</p>
+                        <p>Abishek Benjamin Raj</p></div>
+                    </div>
+                    <div><a href="#" class="switch">Switch</a></div>
+                </div>
+
+                <div class="suggested">
+                    <p class="sug">Suggested</p>
+                    <p class="see">See all</p>
+                </div>
+
+                <div class="follow1">
+                    <div class="mainpic">
+                        <div class="dp"><img src="../static/images/john unknown.jpg" alt="" class="jeffindp"></div>
+                        <div class="profilename"><p>john_danish</p>
+                        <p class="followers">Followed by apple_boy +1 more</p></div>
+                    </div>
+                    <div class="lusudiv"><a href="#" class="mairu1">Follow</a></div>
+                </div>
+
+                <div class="follow1">
+                    <div class="mainpic">
+                        <div class="dp"><img src="../static/images/joshua_unknown.jpg" alt="" class="jeffindp"></div>
+                        <div class="profilename"><p>joshua_daniel</p>
+                        <p class="followers">New to Instagram</p></div>
+                    </div>
+                    <div class="lusudiv"><a href="#" class="mairu2">Follow</a></div>
+                </div>
+
+                <div class="follow1">
+                    <div class="mainpic">
+                        <div class="dp"><img src="../static/images/martin_unknown.jpg" alt="" class="jeffindp"></div>
+                        <div class="profilename"><p>martin_king</p>
+                        <p class="followers">Followed by jes_123 +1 more</p></div>
+                    </div>
+                    <div class="lusudiv"><a href="#" class="mairu3">Follow</a></div>
+                </div>
+
+                <div class="follow1">
+                    <div class="mainpic">
+                        <div class="dp"><img src="../static/images/naruto.avif" alt="" class="jeffindp"></div>
+                        <div class="profilename"><p>naruto_nic</p>
+                        <p class="followers">New to Instagram</p></div>
+                    </div>
+                    <div><a href="#" class="mairu4">Follow</a></div>
+                </div>
+
+                <div class="follow1">
+                    <div class="mainpic">
+                        <div class="dp"><img src="../static/images/bear_grylls.jpg" alt="" class="jeffindp"></div>
+                        <div class="profilename"><p>being_human</p>
+                        <p class="followers">Followed by a_l_e_x</p></div>
+                    </div>
+                    <div><a href="#" class="mairu5">Follow</a></div>
+                </div>
+
+                <div class="meta">
+                    <div class="text">
+                        <a href="#">About . Help . Press . API . Jobs . Privacy . Terms. <br>
+                        Locations.Language . Meta Verified</a>
+                        
+                    </div><br><br>
+                    <h4>@ 2023 INSTAGRAM FROM META</h4>
+                </div>
+
+            </div>
+    </div>
+
+
+
+    
+                
+            
+</body>
+</html>

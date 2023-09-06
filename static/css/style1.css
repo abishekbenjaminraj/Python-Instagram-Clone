@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 25%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.image img{
+    width: 500px;
+    margin-top: 150px;
+}
+
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.main{
+    margin-top: 80px;
+    margin-left: 30px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.sub{
+    margin-top: 25px;
+    margin-left: 30px;
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+}
+.sub a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.get{
+    margin-left: 30px;
+    text-align: center;
+}
+.main a{
+    color:black;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.username{
+    padding: 10px;
+    width: 300px;
+
+}
+
+.password{
+    padding: 10px;
+    width: 300px;
+
+}
+
+.btn{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: lightblue;
+
+}
+.or{
+    margin-top: 10px;
+}
+
+.aone{
+    text-decoration-line: none;
+    color: darkblue;
+    font-size: 20px;
+}
+
+.atwo{
+    text-decoration-line: none;
+    color: darkblue;
+    font-size: 15px;
+}
+
+span{
+    color: blue;
+    text-decoration-line: none;
+}
+
+.pic{
+    text-align: center;
+}

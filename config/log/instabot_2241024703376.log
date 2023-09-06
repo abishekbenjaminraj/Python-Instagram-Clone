@@ -1,0 +1,70 @@
+2023-09-01 22:13:03,176 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-09-01 22:13:03,177 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from D:\Fabevy\Flask_Project\instagram_clone_proj\env\Lib\site-packages\instabot\bot\bot.py
+2023-09-01 22:13:03,178 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-09-01 22:13:03,719 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-09-01 22:13:04,293 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-09-01 22:13:04,679 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-09-01 22:13:05,250 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-09-01 22:13:07,114 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-09-01 22:13:07,114 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2023-09-01 22:13:07,114 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-09-01 22:13:07,115 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2023-09-01 22:13:07,115 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2023-09-01 22:13:07,116 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2023-09-01 22:13:07,116 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
+2023-09-01 22:13:07,131 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-09-01 22:13:07,132 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from D:\Fabevy\Flask_Project\instagram_clone_proj\env\Lib\site-packages\instabot\bot\bot.py
+2023-09-01 22:13:07,134 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-09-01 22:13:08,069 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-09-01 22:13:09,066 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-09-01 22:13:09,475 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-09-01 22:13:09,969 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-09-01 22:13:11,285 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-09-01 22:13:11,285 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2023-09-01 22:13:11,285 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-09-01 22:13:11,286 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2023-09-01 22:13:11,288 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2023-09-01 22:13:11,288 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2023-09-01 22:13:11,289 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
+2023-09-01 22:13:12,386 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-09-01 22:13:12,387 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from D:\Fabevy\Flask_Project\instagram_clone_proj\env\Lib\site-packages\instabot\bot\bot.py
+2023-09-01 22:13:12,388 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-09-01 22:13:13,161 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-09-01 22:13:13,778 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-09-01 22:13:14,401 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-09-01 22:13:15,409 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-09-01 22:13:16,911 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-09-01 22:13:16,911 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2023-09-01 22:13:16,911 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-09-01 22:13:16,912 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2023-09-01 22:13:16,914 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2023-09-01 22:13:16,915 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2023-09-01 22:13:16,916 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
+2023-09-01 22:13:16,932 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-09-01 22:13:16,933 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from D:\Fabevy\Flask_Project\instagram_clone_proj\env\Lib\site-packages\instabot\bot\bot.py
+2023-09-01 22:13:16,934 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-09-01 22:13:17,465 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-09-01 22:13:18,030 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-09-01 22:13:19,276 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-09-01 22:13:19,965 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-09-01 22:13:21,244 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-09-01 22:13:21,244 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2023-09-01 22:13:21,244 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-09-01 22:13:21,245 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2023-09-01 22:13:21,248 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2023-09-01 22:13:21,248 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2023-09-01 22:13:21,249 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.
+2023-09-01 22:13:21,273 - instabot version: 0.117.0 (bot) - INFO - Instabot version: 0.117.0 Started
+2023-09-01 22:13:21,276 - instabot version: 0.117.0 (bot) - DEBUG - Bot imported from D:\Fabevy\Flask_Project\instagram_clone_proj\env\Lib\site-packages\instabot\bot\bot.py
+2023-09-01 22:13:21,277 - instabot version: 0.117.0 (api_login) - INFO - Not yet logged in starting: PRE-LOGIN FLOW!
+2023-09-01 22:13:25,217 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/get_prefill_candidates/ returned response: <Response [200]>
+2023-09-01 22:13:25,916 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: qe/sync/ returned response: <Response [200]>
+2023-09-01 22:13:26,894 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: launcher/sync/ returned response: <Response [200]>
+2023-09-01 22:13:27,590 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/contact_point_prefill/ returned response: <Response [200]>
+2023-09-01 22:13:29,301 - instabot version: 0.117.0 (api) - DEBUG - POST to endpoint: accounts/login/ returned response: <Response [400]>
+2023-09-01 22:13:29,301 - instabot version: 0.117.0 (api) - DEBUG - Responsecode indicates error; response content: b'{"message":"The password you entered is incorrect. Please try again.","status":"fail","error_title":"Incorrect password","buttons":[{"title":"OK","action":"dismiss"}],"invalid_credentials":true,"exception_name":"UserInvalidCredentials","error_type":"bad_password"}'
+2023-09-01 22:13:29,301 - instabot version: 0.117.0 (api) - ERROR - Request returns 400 error!
+2023-09-01 22:13:29,304 - instabot version: 0.117.0 (api) - INFO - Instagram's error message: The password you entered is incorrect. Please try again.
+2023-09-01 22:13:29,305 - instabot version: 0.117.0 (api) - INFO - Error type: bad_password
+2023-09-01 22:13:29,307 - instabot version: 0.117.0 (api) - ERROR - Failed to login go to instagram and change your password
+2023-09-01 22:13:29,309 - instabot version: 0.117.0 (api) - INFO - Username or password is incorrect.

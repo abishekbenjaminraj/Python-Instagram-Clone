@@ -1,0 +1,444 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col_1 {
+    width: 8.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_2 {
+    width: 16.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_3 {
+    width: 23%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_4 {
+    width: 33.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_5 {
+    width: 41.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_6 {
+    width: 50%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_7 {
+    width: 58.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_8 {
+    width: 66.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_9 {
+    width: 75%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_10 {
+    width: 83.33%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_11 {
+    width: 91.66%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+.col_12 {
+    width: 100%;
+    padding: 0 15px;
+    flex: 0 0 auto;
+}
+
+
+
+
+
+/* Ist column begins */
+
+
+
+.instagram{
+    margin-left: 20px;
+    padding-top: 40px;
+}
+
+.home{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.homee{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.homeee{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 10px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+.homeeee{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 27px;
+    border: transparent;
+    padding: 10px 5px;
+    display: flex;
+    border-radius: 10px;
+    width: 70%;
+}
+
+
+.home:hover{
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.homee:hover{
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.homeee:hover{
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.homeeee:hover{
+    background-color: #7777;
+    cursor: pointer;
+}
+
+.home1{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.home2{
+    margin-top: 5px;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+
+a{
+    text-decoration-line: none;
+    color: black;
+}
+
+aside{
+    width: 18%;
+    border-right: 3px solid gray;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+
+
+
+
+
+
+/* story section starts here  */
+
+
+
+.virat{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 3px solid palevioletred;
+    padding: 4px;
+    margin-top: 60px;
+}
+
+.names{
+    display: flex;
+}
+
+.names p{
+    margin-top: 28px;
+    font-size: 14px;
+    padding-left: 7px;
+}
+
+.names h5{
+    margin-top: 28px;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+
+.story{
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 130px;
+}
+
+
+/* post section starts here  */
+
+.virat1{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.post1{
+    padding-top: 100px;
+    margin-left: 90px;
+    width: 72%;
+    border-bottom: 3px solid silver;
+    padding-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    margin-top: 12px;
+    margin-left: 15px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.more{
+    margin-left: 15px;
+    font-size: 35px;
+}
+
+/* post */
+
+.padam{
+    height:"500px";
+     width:"100%";
+    border: 2px solid gray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.podhudiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.like{
+    font-size: 28px;
+}
+
+.like a{
+    padding-right: 8px;
+}
+
+.bookmark{
+    font-size: 28px;
+}
+
+
+/* likes */
+
+.likes{
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 8px;
+}
+
+
+.caption{
+    margin-top: 8px;
+}
+
+.translate{
+    margin-top: 8px;
+}
+
+.comments{
+    margin-top: 8px;
+}
+
+.leavecomment{
+    margin-top: 8px;
+}
+
+input{
+    border: none;
+    font-size: 18px;
+}
+
+/* notification starts here*/
+
+
+.follow{
+    margin-top: 85px;
+    display: flex;
+}
+
+.follow1{
+    margin-top: 17px;
+    display: flex;
+}
+
+.mainpic{
+    display: flex;
+
+}
+
+.profilename{
+    margin-left: 15px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 6px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.jeffindp{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+}
+
+.switch{
+    margin-left: 80px;
+    color: #0095F6;
+    padding-top: 20px;
+    display: flex;
+}
+
+.suggested{
+    display: flex;
+    margin-top: 30px;
+    color: #737373;
+    font-size: 18px;
+    /* margin-left: 18px; */
+}
+
+
+.see{
+    font-size: 15px;
+    margin-left: 180px;
+    color: black;
+}
+
+.followers{
+    font-size: 14px;
+    color: #737373;
+}
+
+.mairu1{
+    padding-left: 40px;
+    padding-top: 20px;
+    color: #0095F6;
+    display: flex;
+}
+.mairu2{
+    color: #0095F6;
+    display: flex;
+    padding-left:127px;
+    padding-top: 20px;
+}
+
+.mairu3{
+    padding-left: 50px;
+    padding-top: 15px;
+    color: #0095F6;
+    display: flex;
+}
+
+.mairu4{
+    padding-left: 121.5px;
+    padding-top: 18px;
+    color: #0095F6;
+    display: flex;
+}
+
+.mairu5{
+    padding-left: 87px;
+    padding-top: 18px;
+    color: #0095F6;
+    display: flex;
+}
+
+.meta{
+    margin-top: 40px;
+    color: #7777;
+}
+
+.meta a{
+    color: #7777;
+    font-size: 15px;
+}
